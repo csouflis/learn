@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_styles.css">
+    <title>PancakeClub</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>PancakeClub</h1>
+    </header>
+
+    <section class="banner">
+      <img src="../img/pancakebanner.png" alt="PancakeClub welcome banner">
+      <div class="welcome">
+        <h2>Welcome to <br><span>PancakeClub</span></h2>
+      </div>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#join_form" class="join">Join the Club</a></li>
+        <li><a href="./news.html">Latest News</a></li>
+        <li><a href="./recipes.html">New Recipes</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>Why do you love maple syrup?</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </article>
+      <ul class="images">
+        <li><img src="../img/pancake1.jpeg" alt="pancake image 1" width="500" height="250"></li>
+        <li><img src="../img/chocopanckae.png" alt="pancake image 2" width="500" height="250"></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join Today!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <form id="join_form" method="GET">
+          <span>First Name:</span><input placeholder="John" type = "text"><br>
+          <span>Last Name:</span><input placeholder="Smith" type = "text"><br>
+          <span>Email:</span><input type="email" name="email" placeholder="jsmith@email.com" required><br>
+          <span>Favorite Pancake:</span> <br>
+              <ul class = "fav_cakes">
+                  <li><input type="radio" name="fav_cakes" >Blueberry</li>
+                  <li><input type="radio" name="fav_cakes">Chocolate Chip</li>
+                  <li><input type="radio" name="fav_cakes">Banana</li>
+                  <li><input type="radio" name="fav_cakes">Other</li>
+              </ul>
+              <span>Dipper or stacker: </span><select>
+      <option value="Dipper">Dipper</option>
+      <option value="Stacker">Stacker</option>
+      </select><br>
+        <input type="submit" value="Sign up!">
+        <input type="reset">
+
+      </form>
+    </section>
+    <footer>
+      <p class="copyright">Copyright PancakeClub</p>
+    </footer>
+
+
+  </body>
+</html>

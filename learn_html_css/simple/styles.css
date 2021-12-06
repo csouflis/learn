@@ -1,0 +1,77 @@
+h1{
+  color: orange;
+  background-color: slategray;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: serif;
+  text-align: center;
+}
+
+p{
+  color: blue;
+  text-align: right;
+  line-height: 30px;
+  letter-spacing: 2px;
+  column-count: 3;
+  column-gap: 60px;
+}
+
+/* this is an example comment */
+
+ul{
+  /* border-width: 4px;
+  border-style: groove;
+  border-color: red; */
+  border-top: 4px solid crimson;
+  border-left: 5px dotted purple;
+}
+
+li{
+  list-style-type: square;
+  text-shadow: 2px 2px lightgray;
+}
+
+div{
+  border: 2px solid crimson;
+  margin: 20px;
+  padding: 20px;
+}
+
+span{
+  /* display inline-block treats inline elements like block elements */
+  /* display: inline-block; */
+  margin: 20px;
+  padding: 20px;
+}
+
+p.lorem1{
+  color: green;
+  letter-spacing: 1px;
+  column-count: 1;
+  text-align: center;
+}
+
+a.lorem1{
+  color: blue;
+  text-align: center;
+}
+
+p.lorem2{
+  color: red;
+  letter-spacing: 1px;
+  column-count: 1;
+  text-align: left;
+}
+
+div p{
+  color: purple;
+  column-count: 1;
+}
+
+a[href*="google"]{
+  background-color: green;
+}
+
+a[href$=".com"]{
+  color: red;
+}

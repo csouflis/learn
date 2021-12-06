@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+      <a href="index.html"><-- Back to main review page</a>
+
+      <h1>HTML Forms</h1>
+
+      <form action="">
+        <label for="username">Enter your username:</label>
+        <input type="text" id="username" placeholder="username" required>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" placeholder="your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="choose a password" required>
+
+        <p>Select your age group:</p>
+
+        <input type="radio" name="age" value="0-25", id="option1">
+        <label for="option1">0-25</label>
+        <input type="radio" name="age" value="26-50", id="option2">
+        <label for="option2">26-50</label>
+        <input type="radio" name="age" value="51+", id="option3">
+        <label for="option3">51+</label>
+
+        <br><br>
+
+        <label for="question">Security Question:</label>
+        <select name="question" id="question">
+          <option value="q1">What was the name of your first pet?</option>
+          <option value="q2">What was your mother's maiden name?</option>
+          <option value="q3">Favorite clothing brand?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Security Question Answer:</label>
+        <input type="text" id="answer">
+
+        <br><br>
+
+        <label for="bio">Enter your bio:</label><br>
+        <textarea name="bio" id="bio" rows="10" cols="30" placeholder="About you..."></textarea>
+
+
+        <br><br>
+        <input type="submit" value="Submit the Form">
+
+      </form>
+  </body>
+</html>

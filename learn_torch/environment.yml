@@ -1,0 +1,11 @@
+name: torch
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=10.2
+  - jupyter
+  - notebook

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2><a href="{% url 'cars_cbv:car_list' %}">cars CBV</a></h2>
+
+<ul>
+    {% for car in object_list %}
+    <li>{{ car.year }} {{ car.make }}  {{ car.model }} with {{ car.mileage }} miles
+    <a href="{% url 'cars_cbv:car_edit' car.id %}">edit</a>
+    <a href="{% url 'cars_cbv:car_delete' car.id %}">delete</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'cars_cbv:car_new' %}">New</a>
+
+{% endblock %}

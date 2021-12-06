@@ -1,0 +1,10 @@
+.vs
+.idea
+__pycache__
+learn_torch/data
+*.tif
+*.tiff
+learn_rs_gis/Sentinel2/S2A_MSIL2A_20211016T185401_N0301_R113_T10SEG_20211016T213839.SAFE/
+learn_rs_gis/Sentinel2/S2A_MSIL2A_20211016T185401_N0301_R113_T10SEG_20211016T213839.SAFE.zip
+learn_rs_gis/Sentinel2/SanFrancisco-shp/
+.ipynb_checkpoints

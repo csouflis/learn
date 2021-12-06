@@ -1,0 +1,12 @@
+.content{
+    padding: 10px;
+    color: crimson;
+    border: 1px dotted yellow;
+}
+
+.test{
+    padding: 10px;
+    color: green;
+    border: 1px dotted blue;
+}
+

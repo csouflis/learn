@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="{% url 'cars_fbv:car_list' %}">Function Based Views</a><br>
+<a href="{% url 'cars_cbv:car_list' %}">Class Based Views</a><br>
+<a href="{% url 'cars_fbv_user:car_list' %}">Function Based Views with User Access</a><br>
+<a href="{% url 'cars_gcbv_user:car_list' %}">Generic Class Based Views with User Access</a><br>
+
+{% endblock %}
